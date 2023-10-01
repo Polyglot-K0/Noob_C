@@ -1,5 +1,6 @@
 ```c
 #include <stdio.h>
+// time.h header (file) - is requred, compiler might be cross with you
 #include <time.h>
 
 int main(){ 
