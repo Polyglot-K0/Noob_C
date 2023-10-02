@@ -5,9 +5,10 @@
 
 int main(){ 
 
-    // time_t is a type - used for representing time
-    // is mostly used as an alias 
-
+    //time_t is a type - used for representing time
+    //is mostly used as an alias for numeric type - typically 'long' or '__int64' (some sytems)
+    //its used to hold the number of seconds since a spec ref point in time (also, the epoch)
+    //this allows the programmer with time-related data
     time_t now;
     
     // time() function requires the time_t variable
